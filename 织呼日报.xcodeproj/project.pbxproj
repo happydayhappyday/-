@@ -24,11 +24,16 @@
 		20804AF71E5435100051BFD9 /* StoriesTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 20804AF51E5435100051BFD9 /* StoriesTableViewCell.xib */; };
 		20804AFA1E5435270051BFD9 /* StoriesHeaderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 20804AF91E5435270051BFD9 /* StoriesHeaderCell.m */; };
 		20804AFE1E5435630051BFD9 /* APIDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 20804AFD1E5435630051BFD9 /* APIDataSource.m */; };
-		20804B011E54357B0051BFD9 /* DataKeys.m in Sources */ = {isa = PBXBuildFile; fileRef = 20804B001E54357B0051BFD9 /* DataKeys.m */; };
 		20804B041E5435880051BFD9 /* Stories.m in Sources */ = {isa = PBXBuildFile; fileRef = 20804B031E5435880051BFD9 /* Stories.m */; };
 		20804B071E5435900051BFD9 /* Story.m in Sources */ = {isa = PBXBuildFile; fileRef = 20804B061E5435900051BFD9 /* Story.m */; };
 		20804B0A1E5435A20051BFD9 /* StartImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 20804B091E5435A20051BFD9 /* StartImage.m */; };
 		20804B0D1E5435B60051BFD9 /* CachedImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 20804B0C1E5435B60051BFD9 /* CachedImage.m */; };
+		20804BCE1E5576F50051BFD9 /* APIRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 20804BCD1E5576F50051BFD9 /* APIRequest.m */; };
+		20804BD11E55770C0051BFD9 /* GCDUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 20804BD01E55770C0051BFD9 /* GCDUtil.m */; };
+		20804BD41E5577190051BFD9 /* CacheUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 20804BD31E5577190051BFD9 /* CacheUtil.m */; };
+		20804BD71E5577240051BFD9 /* DateUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 20804BD61E5577240051BFD9 /* DateUtil.m */; };
+		20804BDA1E5577310051BFD9 /* MD5Util.m in Sources */ = {isa = PBXBuildFile; fileRef = 20804BD91E5577310051BFD9 /* MD5Util.m */; };
+		20804BDD1E558E1C0051BFD9 /* DataKeys.m in Sources */ = {isa = PBXBuildFile; fileRef = 20804BDC1E558E1C0051BFD9 /* DataKeys.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,8 +56,8 @@
 /* Begin PBXFileReference section */
 		20804AAA1E5434140051BFD9 /* 织呼日报.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "织呼日报.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		20804AAE1E5434140051BFD9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		20804AB01E5434140051BFD9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		20804AB11E5434140051BFD9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		20804AB01E5434140051BFD9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../AppDelegate.h; sourceTree = "<group>"; };
+		20804AB11E5434140051BFD9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ../AppDelegate.m; sourceTree = "<group>"; };
 		20804AB31E5434140051BFD9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		20804AB41E5434140051BFD9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		20804AB71E5434140051BFD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -82,7 +87,6 @@
 		20804AF91E5435270051BFD9 /* StoriesHeaderCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StoriesHeaderCell.m; sourceTree = "<group>"; };
 		20804AFC1E5435630051BFD9 /* APIDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APIDataSource.h; sourceTree = "<group>"; };
 		20804AFD1E5435630051BFD9 /* APIDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APIDataSource.m; sourceTree = "<group>"; };
-		20804B001E54357B0051BFD9 /* DataKeys.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataKeys.m; sourceTree = "<group>"; };
 		20804B021E5435880051BFD9 /* Stories.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stories.h; sourceTree = "<group>"; };
 		20804B031E5435880051BFD9 /* Stories.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Stories.m; sourceTree = "<group>"; };
 		20804B051E5435900051BFD9 /* Story.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Story.h; sourceTree = "<group>"; };
@@ -91,6 +95,18 @@
 		20804B091E5435A20051BFD9 /* StartImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StartImage.m; sourceTree = "<group>"; };
 		20804B0B1E5435B60051BFD9 /* CachedImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CachedImage.h; sourceTree = "<group>"; };
 		20804B0C1E5435B60051BFD9 /* CachedImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CachedImage.m; sourceTree = "<group>"; };
+		20804BCC1E5576F50051BFD9 /* APIRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APIRequest.h; sourceTree = "<group>"; };
+		20804BCD1E5576F50051BFD9 /* APIRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APIRequest.m; sourceTree = "<group>"; };
+		20804BCF1E55770B0051BFD9 /* GCDUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDUtil.h; sourceTree = "<group>"; };
+		20804BD01E55770C0051BFD9 /* GCDUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDUtil.m; sourceTree = "<group>"; };
+		20804BD21E5577190051BFD9 /* CacheUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CacheUtil.h; sourceTree = "<group>"; };
+		20804BD31E5577190051BFD9 /* CacheUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CacheUtil.m; sourceTree = "<group>"; };
+		20804BD51E5577240051BFD9 /* DateUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DateUtil.h; sourceTree = "<group>"; };
+		20804BD61E5577240051BFD9 /* DateUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DateUtil.m; sourceTree = "<group>"; };
+		20804BD81E5577310051BFD9 /* MD5Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MD5Util.h; sourceTree = "<group>"; };
+		20804BD91E5577310051BFD9 /* MD5Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MD5Util.m; sourceTree = "<group>"; };
+		20804BDB1E558E1C0051BFD9 /* DataKeys.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataKeys.h; sourceTree = "<group>"; };
+		20804BDC1E558E1C0051BFD9 /* DataKeys.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataKeys.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,12 +157,11 @@
 		20804AAC1E5434140051BFD9 /* 织呼日报 */ = {
 			isa = PBXGroup;
 			children = (
+				20804BCB1E5576E10051BFD9 /* Utility */,
 				20804AE01E54348A0051BFD9 /* View */,
 				20804AE11E54348A0051BFD9 /* Other */,
 				20804AE21E54348A0051BFD9 /* Model */,
 				20804AE31E54348A0051BFD9 /* Controller */,
-				20804AB01E5434140051BFD9 /* AppDelegate.h */,
-				20804AB11E5434140051BFD9 /* AppDelegate.m */,
 				20804AB31E5434140051BFD9 /* ViewController.h */,
 				20804AB41E5434140051BFD9 /* ViewController.m */,
 				20804AB61E5434140051BFD9 /* Main.storyboard */,
@@ -203,6 +218,8 @@
 		20804AE11E54348A0051BFD9 /* Other */ = {
 			isa = PBXGroup;
 			children = (
+				20804AB01E5434140051BFD9 /* AppDelegate.h */,
+				20804AB11E5434140051BFD9 /* AppDelegate.m */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -241,9 +258,27 @@
 			children = (
 				20804AFC1E5435630051BFD9 /* APIDataSource.h */,
 				20804AFD1E5435630051BFD9 /* APIDataSource.m */,
-				20804B001E54357B0051BFD9 /* DataKeys.m */,
+				20804BDB1E558E1C0051BFD9 /* DataKeys.h */,
+				20804BDC1E558E1C0051BFD9 /* DataKeys.m */,
 			);
 			path = DataSource;
+			sourceTree = "<group>";
+		};
+		20804BCB1E5576E10051BFD9 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				20804BCC1E5576F50051BFD9 /* APIRequest.h */,
+				20804BCD1E5576F50051BFD9 /* APIRequest.m */,
+				20804BCF1E55770B0051BFD9 /* GCDUtil.h */,
+				20804BD01E55770C0051BFD9 /* GCDUtil.m */,
+				20804BD21E5577190051BFD9 /* CacheUtil.h */,
+				20804BD31E5577190051BFD9 /* CacheUtil.m */,
+				20804BD51E5577240051BFD9 /* DateUtil.h */,
+				20804BD61E5577240051BFD9 /* DateUtil.m */,
+				20804BD81E5577310051BFD9 /* MD5Util.h */,
+				20804BD91E5577310051BFD9 /* MD5Util.m */,
+			);
+			path = Utility;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -384,21 +419,26 @@
 			buildActionMask = 2147483647;
 			files = (
 				20804AB51E5434140051BFD9 /* ViewController.m in Sources */,
+				20804BD71E5577240051BFD9 /* DateUtil.m in Sources */,
 				20804AFE1E5435630051BFD9 /* APIDataSource.m in Sources */,
 				20804AF61E5435100051BFD9 /* StoriesTableViewCell.m in Sources */,
 				20804B0D1E5435B60051BFD9 /* CachedImage.m in Sources */,
 				20804AEC1E5434B60051BFD9 /* LoadingViewController.m in Sources */,
 				20804AF21E5434F10051BFD9 /* StoryView.m in Sources */,
+				20804BD11E55770C0051BFD9 /* GCDUtil.m in Sources */,
 				20804B071E5435900051BFD9 /* Story.m in Sources */,
 				20804AB21E5434140051BFD9 /* AppDelegate.m in Sources */,
 				20804AAF1E5434140051BFD9 /* main.m in Sources */,
+				20804BDD1E558E1C0051BFD9 /* DataKeys.m in Sources */,
+				20804BDA1E5577310051BFD9 /* MD5Util.m in Sources */,
+				20804BCE1E5576F50051BFD9 /* APIRequest.m in Sources */,
 				20804B041E5435880051BFD9 /* Stories.m in Sources */,
 				20804AFA1E5435270051BFD9 /* StoriesHeaderCell.m in Sources */,
 				20804AE91E5434AC0051BFD9 /* MainViewController.m in Sources */,
 				20804AEF1E5434D00051BFD9 /* GradientView.m in Sources */,
 				20804B0A1E5435A20051BFD9 /* StartImage.m in Sources */,
+				20804BD41E5577190051BFD9 /* CacheUtil.m in Sources */,
 				20804AE61E5434A50051BFD9 /* SliderViewController.m in Sources */,
-				20804B011E54357B0051BFD9 /* DataKeys.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -634,6 +674,7 @@
 				20804AD91E5434150051BFD9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		20804ADA1E5434150051BFD9 /* Build configuration list for PBXNativeTarget "织呼日报Tests" */ = {
 			isa = XCConfigurationList;
@@ -642,6 +683,7 @@
 				20804ADC1E5434150051BFD9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		20804ADD1E5434150051BFD9 /* Build configuration list for PBXNativeTarget "织呼日报UITests" */ = {
 			isa = XCConfigurationList;
@@ -650,6 +692,7 @@
 				20804ADF1E5434150051BFD9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
