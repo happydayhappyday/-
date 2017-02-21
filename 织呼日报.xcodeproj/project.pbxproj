@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		20127A131E5C527800AE01F1 /* SliderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 20127A121E5C527800AE01F1 /* SliderView.m */; };
 		20127A161E5C52B300AE01F1 /* UINavigation+BackgroundColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 20127A151E5C52B300AE01F1 /* UINavigation+BackgroundColor.m */; };
+		20127A181E5C5F3400AE01F1 /* LoadingScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20127A171E5C5F3400AE01F1 /* LoadingScreen.storyboard */; };
 		20804AAF1E5434140051BFD9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 20804AAE1E5434140051BFD9 /* main.m */; };
 		20804AB21E5434140051BFD9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 20804AB11E5434140051BFD9 /* AppDelegate.m */; };
 		20804AB51E5434140051BFD9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20804AB41E5434140051BFD9 /* ViewController.m */; };
@@ -60,6 +61,7 @@
 		20127A121E5C527800AE01F1 /* SliderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SliderView.m; sourceTree = "<group>"; };
 		20127A141E5C52B300AE01F1 /* UINavigation+BackgroundColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigation+BackgroundColor.h"; sourceTree = "<group>"; };
 		20127A151E5C52B300AE01F1 /* UINavigation+BackgroundColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigation+BackgroundColor.m"; sourceTree = "<group>"; };
+		20127A171E5C5F3400AE01F1 /* LoadingScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LoadingScreen.storyboard; path = ../LoadingScreen.storyboard; sourceTree = "<group>"; };
 		20804AAA1E5434140051BFD9 /* 织呼日报.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "织呼日报.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		20804AAE1E5434140051BFD9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		20804AB01E5434140051BFD9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../AppDelegate.h; sourceTree = "<group>"; };
@@ -182,6 +184,7 @@
 				20804AB41E5434140051BFD9 /* ViewController.m */,
 				20804AB61E5434140051BFD9 /* Main.storyboard */,
 				20804AB91E5434150051BFD9 /* Assets.xcassets */,
+				20127A171E5C5F3400AE01F1 /* LoadingScreen.storyboard */,
 				20804ABB1E5434150051BFD9 /* LaunchScreen.storyboard */,
 				20804ABE1E5434150051BFD9 /* Info.plist */,
 				20804AAD1E5434140051BFD9 /* Supporting Files */,
@@ -412,6 +415,7 @@
 				20804AF71E5435100051BFD9 /* StoriesTableViewCell.xib in Resources */,
 				20804ABA1E5434150051BFD9 /* Assets.xcassets in Resources */,
 				20804AB81E5434140051BFD9 /* Main.storyboard in Resources */,
+				20127A181E5C5F3400AE01F1 /* LoadingScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

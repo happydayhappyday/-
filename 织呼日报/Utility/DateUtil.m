@@ -23,7 +23,7 @@
 + (NSString *)dateIdentifierNow{
     return [self dateString:[NSDate date] withFormat:@"yyyyMMddHHmmssfff"];
 }
-+ (NSString *)dateString:(NSString *)originalStr fromFormat:(NSString *)fromFormat toFoormat:(NSString *)toFormat{
++ (NSString *)dateString:(NSString *)originalStr fromFormat:(NSString *)fromFormat toFormat:(NSString *)toFormat{
     NSDateFormatter *dateFormatter = [[NSDateFormatter alloc]init];
     dateFormatter.dateFormat = fromFormat;
     NSDate *date = [dateFormatter dateFromString:originalStr];

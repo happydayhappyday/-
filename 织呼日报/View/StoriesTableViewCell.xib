@@ -6,6 +6,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
@@ -18,22 +19,40 @@
                 <rect key="frame" x="0.0" y="0.0" width="414" height="90"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XLC-Z7-NLe">
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XLC-Z7-NLe">
                         <rect key="frame" x="22" y="8" width="281" height="21"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="hZ8-13-kQo"/>
+                            <constraint firstAttribute="width" constant="281" id="lIM-wO-RFs"/>
+                        </constraints>
                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
                     </label>
-                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="A03-Jq-Tgs">
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="A03-Jq-Tgs">
                         <rect key="frame" x="311" y="13" width="90" height="63"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="63" id="E85-K9-Tey"/>
+                            <constraint firstAttribute="width" constant="90" id="PiC-dA-TOI"/>
+                        </constraints>
                     </imageView>
-                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Zgs-Mb-YeW">
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Zgs-Mb-YeW">
                         <rect key="frame" x="369" y="62" width="32" height="14"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="14" id="LeA-zq-MaB"/>
+                            <constraint firstAttribute="width" constant="32" id="yht-9Q-yO7"/>
+                        </constraints>
                     </imageView>
                 </subviews>
+                <constraints>
+                    <constraint firstItem="A03-Jq-Tgs" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="1np-19-No5"/>
+                    <constraint firstItem="XLC-Z7-NLe" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" id="Co2-LW-QDP"/>
+                    <constraint firstItem="A03-Jq-Tgs" firstAttribute="bottom" secondItem="Zgs-Mb-YeW" secondAttribute="bottom" id="WSk-Vi-eZP"/>
+                    <constraint firstItem="XLC-Z7-NLe" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="14" id="ZrO-rv-Nft"/>
+                    <constraint firstItem="A03-Jq-Tgs" firstAttribute="leading" secondItem="XLC-Z7-NLe" secondAttribute="trailing" constant="8" symbolic="YES" id="bEq-pJ-aQO"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="A03-Jq-Tgs" secondAttribute="trailing" constant="5" id="cGT-KY-beB"/>
+                    <constraint firstItem="Zgs-Mb-YeW" firstAttribute="leading" secondItem="A03-Jq-Tgs" secondAttribute="trailing" constant="-32" id="qHq-Af-LGB"/>
+                </constraints>
             </tableViewCellContentView>
             <connections>
                 <outlet property="contentLabel" destination="XLC-Z7-NLe" id="7iD-oa-Ctp"/>
