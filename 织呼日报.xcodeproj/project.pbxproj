@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		20127A131E5C527800AE01F1 /* SliderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 20127A121E5C527800AE01F1 /* SliderView.m */; };
+		20127A161E5C52B300AE01F1 /* UINavigation+BackgroundColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 20127A151E5C52B300AE01F1 /* UINavigation+BackgroundColor.m */; };
 		20804AAF1E5434140051BFD9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 20804AAE1E5434140051BFD9 /* main.m */; };
 		20804AB21E5434140051BFD9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 20804AB11E5434140051BFD9 /* AppDelegate.m */; };
 		20804AB51E5434140051BFD9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20804AB41E5434140051BFD9 /* ViewController.m */; };
@@ -54,6 +56,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		20127A111E5C527800AE01F1 /* SliderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SliderView.h; sourceTree = "<group>"; };
+		20127A121E5C527800AE01F1 /* SliderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SliderView.m; sourceTree = "<group>"; };
+		20127A141E5C52B300AE01F1 /* UINavigation+BackgroundColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigation+BackgroundColor.h"; sourceTree = "<group>"; };
+		20127A151E5C52B300AE01F1 /* UINavigation+BackgroundColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigation+BackgroundColor.m"; sourceTree = "<group>"; };
 		20804AAA1E5434140051BFD9 /* 织呼日报.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "织呼日报.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		20804AAE1E5434140051BFD9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		20804AB01E5434140051BFD9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../AppDelegate.h; sourceTree = "<group>"; };
@@ -134,6 +140,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		20127A101E5C524300AE01F1 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				20127A141E5C52B300AE01F1 /* UINavigation+BackgroundColor.h */,
+				20127A151E5C52B300AE01F1 /* UINavigation+BackgroundColor.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
 		20804AA11E5434140051BFD9 = {
 			isa = PBXGroup;
 			children = (
@@ -157,6 +172,7 @@
 		20804AAC1E5434140051BFD9 /* 织呼日报 */ = {
 			isa = PBXGroup;
 			children = (
+				20127A101E5C524300AE01F1 /* Category */,
 				20804BCB1E5576E10051BFD9 /* Utility */,
 				20804AE01E54348A0051BFD9 /* View */,
 				20804AE11E54348A0051BFD9 /* Other */,
@@ -211,6 +227,8 @@
 				20804AF51E5435100051BFD9 /* StoriesTableViewCell.xib */,
 				20804AF81E5435270051BFD9 /* StoriesHeaderCell.h */,
 				20804AF91E5435270051BFD9 /* StoriesHeaderCell.m */,
+				20127A111E5C527800AE01F1 /* SliderView.h */,
+				20127A121E5C527800AE01F1 /* SliderView.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -419,6 +437,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				20804AB51E5434140051BFD9 /* ViewController.m in Sources */,
+				20127A131E5C527800AE01F1 /* SliderView.m in Sources */,
 				20804BD71E5577240051BFD9 /* DateUtil.m in Sources */,
 				20804AFE1E5435630051BFD9 /* APIDataSource.m in Sources */,
 				20804AF61E5435100051BFD9 /* StoriesTableViewCell.m in Sources */,
@@ -434,6 +453,7 @@
 				20804BCE1E5576F50051BFD9 /* APIRequest.m in Sources */,
 				20804B041E5435880051BFD9 /* Stories.m in Sources */,
 				20804AFA1E5435270051BFD9 /* StoriesHeaderCell.m in Sources */,
+				20127A161E5C52B300AE01F1 /* UINavigation+BackgroundColor.m in Sources */,
 				20804AE91E5434AC0051BFD9 /* MainViewController.m in Sources */,
 				20804AEF1E5434D00051BFD9 /* GradientView.m in Sources */,
 				20804B0A1E5435A20051BFD9 /* StartImage.m in Sources */,

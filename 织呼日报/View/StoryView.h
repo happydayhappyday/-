@@ -7,7 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "SliderViewController.h"
+@protocol StoryViewDelegate <NSObject>
 
+- (void)releaseStoryView;
+@end
 @interface StoryView : UIWebView
+@property (weak, nonatomic) id<StoryViewDelegate> storyViewDelegate;
+@property (strong, nonatomic) SliderViewController *sliderViewController;
+@property (assign,nonatomic) NSUInteger identifier;
+
 
 @end

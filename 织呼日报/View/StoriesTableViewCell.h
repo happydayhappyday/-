@@ -7,7 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "Stories.h"
+#import "CacheUtil.h"
+#import "StoriesTableViewCell.h"
 @interface StoriesTableViewCell : UITableViewCell
-
+@property (strong, nonatomic) Stories* stories;
 @end

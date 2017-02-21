@@ -9,5 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface StoriesHeaderCell : UIView
-
+@property (copy, nonatomic) NSString* text;
 @end

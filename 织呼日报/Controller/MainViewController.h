@@ -8,6 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
-@interface MainViewController : UIViewController
+@interface MainViewController : UITableViewController
+
++ (UIColor *)themeColor;
+
++ (NSInteger)sliderInsetY;
++ (NSInteger)sliderDisplayHeight;
 
 @end

@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface GradientView : UIView
+@property (strong, nonatomic) CAGradientLayer *gradientLayer;
 
 @end
